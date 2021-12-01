@@ -13,6 +13,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 }
 
 
+
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
@@ -31,11 +32,12 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 }
 
 
+
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 #ejercicioCuatro{
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0px;
 }
@@ -46,34 +48,34 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Acá va tu código */
 #ejercicioCinco{
     display: flex;
+    justify-content: center;
     align-items: center;
     justify-content:space-evenly;
 }
 
 
+
 /* Ejercicio 6. */
+
 #ejercicioCinco{
     flex-direction: row-reverse;
 }
 
 #ejercicioSiete{position: relative;
     display: flex;
-    flex-direction: column
-    ;
-    
+    flex-direction: column;
+    justify-content: center;
 
 }
 #elementoUno{
     background-color: green;
     color: greenyellow;
-    align-self: flex-start;
 
 }
 
 #elementoDos{
     background-color: orange;
     color: yellow;
-align-self: flex-end;
     
     
 }
@@ -81,7 +83,7 @@ align-self: flex-end;
 #elementoTres{
     background-color: blue;
     color: turquoise;
-    align-self: center;
+
 }
 
 #elementoCuatro{
