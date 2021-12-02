@@ -1,0 +1,69 @@
+Variables:
+
+Son como cajitas que almacenan datos. En primer lugar, se debe declarar un nombre a esa variable.
+Y si queremos asignarle un valor, además del nombre, debemos colocar un =, y el valor que deseamos. Con este valor
+haremos referencia luego.
+
+Existen tres tipos de variables:
+var (es la forma de simplificar la palabra "variable")
+let (similar a la variable var, pero con un comportamiento distinto)
+const (es la forma de simplificar la palabra "constante". Esta variable no puede ser modificada)
+
+var Nombre = 'Agustina';
+let Apellido = 'Intelisano';
+const Dni = 37010723;
+
+Strings:
+
+Son llamados así a cualquier texto que se escriba entre comillas simples o dobles. Pueden ser llamados cadenas o Strings
+
+var Miperro = 'Es Fufi'
+
+Funciones (argumentos, returns):
+ 
+ Comienza con la palabra clave 'function'. Básicamente, le indica al programa que ejecute una función.
+ Esta misma debe tener un nombre de referencia que nos ayude a identificar la función, seguido de paréntesis, que puede o no contener
+  argumentos. Luego siguen los corchetes, donde guardaremos toda la información o códigos que querramos darle a la función.
+  A la hora de ejecutarla o "llamarla", siempre la debemos escribir con los paréntesis. 
+
+function saludar() {
+    console.log('hola')
+    }
+saludar()
+
+Los argumentos es lo que ubicamos dentro de los paréntesis. Esta variable la podemos agregar dentro de la función. Y si queremos
+asignarle un valor debemos "llamar" a la función.
+
+function saludar(nombre) {
+    console.log('hola ' + nombre)
+}
+var Minombre = 'Agustina'
+saludar(Minombre)  (llamo a la función)
+
+Returns:
+Básicamente significa que retorno algo. Cuando se ejecuta esta acción la función inmediatamente detiene lo que está haciendo,
+analiza el returns y devuelve lo que le hayamos pedido
+
+function sumarDosnumeros(a, b) {
+    var suma = a + b;
+    return suma;
+}
+sumarDosnumeros(2, 2); // 4
+
+Declaraciones If:
+Este sirve para que nuestra función verifique si algo es true o false.
+
+function puedeManejar(edad) {
+    if(edad>18) {return true}
+    else {return false}
+}
+puedeManejar(22); // true
+
+
+Valores booleanos (true, false):
+
+Por el momento sabemos que los valores booleanos tiene dos opciones: activar o desactivar, 0 o 1, verdadero o falso.
+Cuando le queremos asignar un valor verdadero decimos 'True', y cuando queremos asignar uno falso decimos 'False'
+
+var vivoenArgentina = true
+var vivoenCorrientes = false
