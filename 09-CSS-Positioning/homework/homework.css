@@ -37,9 +37,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioCuatro{
-    position: absolute;
+    position: fixed;
     top: 0px;
-    left: 0px;
 }
 
 
@@ -61,32 +60,36 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     flex-direction: row-reverse;
 }
 
-#ejercicioSiete{position: relative;
+#ejercicioSiete{
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
 
 }
 #elementoUno{
     background-color: green;
     color: greenyellow;
+    align-self: center;
 
 }
 
 #elementoDos{
     background-color: orange;
     color: yellow;
-    
+    align-self: flex-end;
     
 }
 
 #elementoTres{
     background-color: blue;
     color: turquoise;
+    align-self: flex-start;
 
 }
 
 #elementoCuatro{
     background-color: tomato;
     color: red;
+    align-self: center;
 }
