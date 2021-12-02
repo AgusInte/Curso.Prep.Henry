@@ -91,5 +91,5 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #elementoCuatro{
     background-color: tomato;
     color: red;
-    align-self: center;
+    align-self: flex-start;
 }
